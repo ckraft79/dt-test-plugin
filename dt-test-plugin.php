@@ -9,7 +9,7 @@ Plugin Name: DT Test Plugin
  
 Plugin URI: https://developertown.com
  
-Description: Testing WP Branch capabilities
+Description: Plugin for general testing.
  
 Version: 1.0
  
@@ -21,6 +21,6 @@ License: GPLv2 or later
  
 */
 function hello_developertown () {
-    return "<div>Hello Developertown!";
+    return "<div>Hello Developertown!</div>";
 };
 add_shortcode('hello-dt','hello_developertown');
