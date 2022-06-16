@@ -21,6 +21,6 @@ License: GPLv2 or later
  
 */
 function hello_developertown () {
-    return "<div>Hello Developertown!</div>";
+    return "<h3>Hello Developertown!</h3>";
 };
 add_shortcode('hello-dt','hello_developertown');
